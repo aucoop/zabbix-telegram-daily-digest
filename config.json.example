@@ -1,0 +1,11 @@
+{
+	"zabbix_url": "http://192.168.1.2/zabbix/api_jsonrpc.php",
+	"zabbix_user": "Admin",
+	"zabbix_pass": "zabbix",
+        "telegram_bot_token_debug": "1234567890:ABCDabcd",
+	"telegram_bot_token": "1234567890:ABCDabcd",
+	"telegram_chat_id_debug": "-1234567890",
+	"telegram_chat_id": "-1234567890",
+	"max_message_length": 4096,
+	"good_morning_file": "good_morning_pablo.txt"
+}

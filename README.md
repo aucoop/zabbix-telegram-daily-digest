@@ -13,11 +13,11 @@ This Python script integrates with Zabbix API to fetch and notify about active p
 ## Setup
 
 1. **Zabbix API Credentials**:
-   - Update `ZABBIX_URL`, `ZABBIX_USER`, and `ZABBIX_PASS` variables with your Zabbix API endpoint and credentials.
+   - Update `zabbix_url`, `zabbix_user`, and `zabbix_pass` variables with your Zabbix API endpoint and credentials.
 
 2. **Telegram Bot Credentials**:
-   - Obtain a bot token from BotFather on Telegram and update `TELEGRAM_BOT_TOKEN`.
-   - Replace `TELEGRAM_CHAT_ID` with your chat ID where you want to receive notifications.
+   - Obtain a bot token from BotFather on Telegram and update the `telegram_bot_token` field from the json file.
+   - Replace `telegram_chat_id` with your chat ID where you want to receive notifications.
 
 3. **Debug Mode**:
    - Add `--debug True` to the command to run the script for testing purposes to use the debug bot token and chat ID.
